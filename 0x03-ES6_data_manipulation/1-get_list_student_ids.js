@@ -2,6 +2,6 @@ export deafult function getListStudentIds(arr) {
     if (!Array.isArray(arr)) {
       return [];
     } else {
-      return arr.map((item) => arr.id);
+      return arr.map((item) => item.id);
     }
 }
