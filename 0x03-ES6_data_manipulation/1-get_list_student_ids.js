@@ -1,7 +1,7 @@
-export deafult function getListStudentIds() {
-  const myArray = getListStudents();
-  myArray.map((id) => {
-    if (!id.isArray) {
-      return []} else return {myArray.id)
-  };
+export deafult function getListStudentIds(arr) {
+    if (!Array.isArray(arr)) {
+      return []
+    }; else {
+      return {myArray.id)
+    };
 }
